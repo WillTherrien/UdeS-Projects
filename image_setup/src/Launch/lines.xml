@@ -1,0 +1,6 @@
+<launch>
+  <node name="CAMPUB_NODE" pkg="image_setup" type="campub_node.py"/>
+  <node name="GRAYCONV_NODE" pkg="image_setup" type="grayconv_node.py"/>
+  <node name="CROP_NODE" pkg="image_setup" type="crop_node.py"/>
+  <node name="LINES_NODE" pkg="image_setup" type="lines_node.py"/>
+</launch>
